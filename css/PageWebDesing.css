@@ -1,0 +1,49 @@
+#B1{
+    position: relative;
+    left: 95px;
+    bottom: px;
+}
+.p-3:hover{
+
+    -moz-box-shadow: 0 0 30px rgb(53, 53, 192);
+    -webkit-box-shadow:  0 0 30px rgb(53, 53, 192);
+    box-shadow:  0 0 30px rgb(53, 53, 192);
+
+  }
+  .p-3{
+    background-color: rgb(39, 46, 85);
+    border-radius: 6px;
+
+
+
+
+  }
+   .card-body{
+    background-color: rgb(29, 49, 161);
+    margin: 0;
+
+  }
+  .card-text{
+    color: rgb(192, 191, 247);
+  }
+  .card-title{
+    color: rgb(41, 7, 233);
+  }
+  #footerzada{
+    width: 500000px;
+    border-radius: 5px;
+
+
+  }
+  body{
+    margin: 0;
+  }
+
+  #Page{
+    position: relative;
+    top: 150px;
+    left: 122px;
+  }
+
+
+  

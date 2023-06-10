@@ -1,0 +1,123 @@
+
+main .wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding-top: 100px;
+
+    color:white;
+
+    
+}
+
+main a {
+
+    text-decoration: none !important;
+}
+
+main h1{
+font-size: 4rem;
+}
+
+main h2 {
+    font-size: 3rem;
+
+    margin: 10px 0;
+}
+
+main p {
+    font-size: 2rem;
+    max-width: 600px;
+}
+
+main .buttons{
+    display: flex;
+
+    border-top: 1px solid rgba(255, 255, 255, .6);
+
+    margin-top: 100px;
+    padding-top: 100px;
+
+    justify-content: space-around;
+    align-items: center !important;
+    
+
+}
+
+@media (max-width: 1200px) {
+    main .buttons{
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        flex-direction: column;
+
+        gap: 40px;
+    }    
+
+    main .divisor {
+        flex-direction: column;
+    }
+
+    main .image {
+
+        justify-content: center !important;
+
+        margin-bottom: 50px;
+        margin-top: -50px;
+
+        order: -1;
+    }
+
+}
+
+main .buttons a {
+    margin: 0 !important;
+    color:#2f2f2f !important;
+}
+
+main .divisor {
+    display: flex;
+}
+
+main .image {
+    flex:1;
+
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+main .image img {
+    max-height: 350px;
+}
+
+
+.zap {
+    padding: 0px 20px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    color: rgb(21, 176, 151);
+    margin-top: 48px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 100%;
+    max-width: 400px;
+
+    margin-right: auto;
+}
