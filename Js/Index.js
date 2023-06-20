@@ -8,6 +8,9 @@ document.getElementById("menusobre").onclick = function (e) {
 };
 
 function toggleMenu() {
-  console.log("chamei");
   document.getElementById("menu").classList.toggle("show");
+}
+
+function toggleModal() {
+  document.getElementById("my-modal").classList.toggle("show");
 }

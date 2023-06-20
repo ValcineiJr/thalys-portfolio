@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/Projetos.css" />
     <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/PageWebDesing.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -26,6 +27,16 @@
     <title>Portifólio</title>
   </head>
   <body>
+    <div class="my-modal" id="my-modal">
+      <div id="black" class="black">
+        <div class="modal-border">
+          <button onclick="toggleModal()">X</button>
+          <div class="my-modal-body">
+            <img src="./img//int_banner.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="wrapper">
         <a href="index.html" class="brand">Portifólio</a>
@@ -64,17 +75,17 @@
           <div class="card">
             <img src="./img/Inteligencia Emocinal.png" alt="" />
             <p>Inteligência Emocional</p>
-            <button>Veja Mais</button>
+            <button onclick="toggleModal()">Veja Mais</button>
           </div>
           <div class="card">
             <img src="./img/Inteligencia Emocinal.png" alt="" />
             <p>Inteligência Emocional</p>
-            <button>Veja Mais</button>
+            <button onclick="toggleModal()">Veja Mais</button>
           </div>
           <div class="card">
             <img src="./img/Inteligencia Emocinal.png" alt="" />
             <p>Inteligência Emocional</p>
-            <button>Veja Mais</button>
+            <button onclick="toggleModal()">Veja Mais</button>
           </div>
         </section>
       </div>

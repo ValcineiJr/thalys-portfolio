@@ -1,49 +1,81 @@
-#B1{
-    position: relative;
-    left: 95px;
-    bottom: px;
+
+
+
+ .my-modal {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: transparent;
+
+  color:white;
+
+  z-index: 17;
+
 }
-.p-3:hover{
 
-    -moz-box-shadow: 0 0 30px rgb(53, 53, 192);
-    -webkit-box-shadow:  0 0 30px rgb(53, 53, 192);
-    box-shadow:  0 0 30px rgb(53, 53, 192);
+.my-modal.show{
+  display: block;
+}
 
-  }
-  .p-3{
-    background-color: rgb(39, 46, 85);
-    border-radius: 6px;
+.my-modal .black{
 
+  height: 100%;
+  width: 100%;
 
+  padding: 0 16px;
 
+  background-color: rgba(0, 0, 0, .4);
 
-  }
-   .card-body{
-    background-color: rgb(29, 49, 161);
-    margin: 0;
+  display: flex;
 
-  }
-  .card-text{
-    color: rgb(192, 191, 247);
-  }
-  .card-title{
-    color: rgb(41, 7, 233);
-  }
-  #footerzada{
-    width: 500000px;
-    border-radius: 5px;
+  align-items: center;
+  justify-content: center;
 
+  
 
-  }
-  body{
-    margin: 0;
-  }
-
-  #Page{
-    position: relative;
-    top: 150px;
-    left: 122px;
-  }
+}
 
 
   
+.my-modal .my-modal-body{
+  background-color: #fff;
+
+  padding: 16px;
+
+  max-width: 800px;
+  max-height: 800px;
+
+  overflow: scroll;
+  
+
+  
+
+}
+
+.modal-border{
+  position: relative;
+}
+
+.modal-border button{
+  position: absolute;
+
+
+  left: -10px;
+  top: -10px;
+
+  z-index: 20;
+
+  background-color: red;
+
+  padding: 5px 10px;
+
+  font-size: 20px;
+
+  margin-top: -5px;
+
+  color:white;
+
+  border-radius: 50%;
+}
