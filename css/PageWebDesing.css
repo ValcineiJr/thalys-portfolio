@@ -3,9 +3,11 @@
 
  .my-modal {
   display: none;
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+
 
   background-color: transparent;
 
@@ -26,6 +28,8 @@
 
   padding: 0 16px;
 
+  padding-top: 200px;
+
   background-color: rgba(0, 0, 0, .4);
 
   display: flex;
@@ -40,14 +44,14 @@
 
   
 .my-modal .my-modal-body{
-  background-color: #fff;
+  background-color: #272E55;
 
   padding: 16px;
 
   max-width: 800px;
   max-height: 800px;
 
-  overflow: scroll;
+  overflow-y: scroll;
   
 
   
